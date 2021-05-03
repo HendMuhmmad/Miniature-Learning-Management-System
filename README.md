@@ -1,7 +1,7 @@
 # Miniature-Learning-Management-System
 
 A miniature Learning Management System (LMS) in the form of a RESTful API and  HTML forms for create only.
-The system will have two entities: Course and Student with a full CRUD operations (Create, read, update and delete).
+The system have two entities: Course and Student with a full CRUD operations (Create, read, update and delete).
 
 
 ## Specifications:
