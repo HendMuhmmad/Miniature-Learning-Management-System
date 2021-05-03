@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Add New Student</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/style.css"/>
+</head>
+
+<body>
+  <form method="POST" action="/api/students" id="login-form" class="login-form" autocomplete="off" role="main">
+    <h1 style="color:#29527C;text-align: center;">Add Student</h1>
+    <div>
+      <label class="label-name">
+        <input type="text" class="text" name="name" placeholder="Name" tabindex="1"/>
+        <span class="required">Name</span>
+      </label>
+    </div>
+ 
+    <div>
+      <label class="label-name">
+        <input type="text" class="text" name="code" placeholder="Code" tabindex="2"/>
+        <span class="required">Code</span>
+      </label>
+    </div>
+    <input type="submit" value="Submit" />
+    <figure aria-hidden="true">
+      <div class="person-body"></div>
+      <div class="neck skin"></div>
+      <div class="head skin">
+        <div class="eyes"></div>
+        <div class="mouth"></div>
+      </div>
+      <div class="hair"></div>
+      <div class="ears"></div>
+      <div class="shirt-1"></div>
+      <div class="shirt-2"></div>
+    </figure>
+  </form>
+
+</body>
+
+</html>
